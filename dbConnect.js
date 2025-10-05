@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
 module.exports = async () => {
-    const mongoUri = 'mongodb+srv://chatanbhandari123_db_user:ILt6meDhJm0qBa0s@cluster0.adhtf5v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+    const mongoUri = '#####
+        ';
 
     try {
         const connect = await mongoose.connect(mongoUri, {
@@ -14,3 +15,4 @@ module.exports = async () => {
         process.exit(1);
     }
 };
+
